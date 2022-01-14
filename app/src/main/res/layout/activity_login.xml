@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText3"
+        android:layout_width="369dp"
+        android:layout_height="58dp"
+        android:hint="Email / Phone Number"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="366dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="332dp"
+        android:layout_height="63dp"
+        android:background="@drawable/mybutton"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textSize="50px"
+        android:textStyle="normal"
+        app:backgroundTint="#fec311"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="156dp"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/logom"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="83dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
